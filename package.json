@@ -1,0 +1,12 @@
+{
+  "name": "ScrabbleBot",
+  "version": "0.1.0",
+  "description": "Make scrabble emojis",
+  "main": "index.js",
+  "author": "Cali Castle",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@now/node": "^1.5.0"
+  }
+}
