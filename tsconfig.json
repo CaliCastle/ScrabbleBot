@@ -8,8 +8,15 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": [
+      "@now/node"
+    ]
   },
+  "include": [
+    "lib/**/*.ts",
+    "__test__/**/*"
+  ],
   "exclude": [
     "node_modules"
   ]
