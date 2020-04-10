@@ -1,12 +1,16 @@
 {
-  "name": "ScrabbleBot",
+  "name": "scrabble-bot",
   "version": "0.1.0",
-  "description": "Make scrabble emojis",
-  "main": "index.js",
+  "description": "Make scrabblemojis",
   "author": "Cali Castle",
-  "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@now/node": "^1.5.0"
+    "@now/node": "^1.5.0",
+    "@types/micro": "^7.3.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "micro": "^9.3.4",
+    "querystring": "^0.2.0"
   }
 }

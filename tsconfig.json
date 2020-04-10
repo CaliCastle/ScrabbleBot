@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "esnext",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es6",
+    "target": "es2018",
+    "allowJs": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "sourceMap": true
+    "sourceMap": true,
+    "baseUrl": "."
   },
-  "include": [
-    "api/**/*"
-  ],
-  "files": [
-    "api/**/*.ts"
+  "exclude": [
+    "node_modules"
   ]
 }
